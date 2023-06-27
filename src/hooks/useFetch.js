@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react'
 
+//hooks should always start with "use"
+//a hook is just a function
+
+
 function useFetch(url, options) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)

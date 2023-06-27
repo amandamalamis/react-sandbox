@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <h1 className='mb-3'>React Sandbox</h1>
-      <ul class='list-group'>
+      <ul className='list-group'>
         <Link
           className='list-group-item list-group-item-action'
           to='useref-example-1'

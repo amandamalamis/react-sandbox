@@ -5,6 +5,7 @@ function Todo() {
   const [todo, setTodo] = useState({})
 
   const isMounted = useRef(true)
+  //reference default to true 
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/todos/1')

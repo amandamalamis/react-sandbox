@@ -1,4 +1,5 @@
 import useLocalStorage from '../hooks/useLocalStorage'
+//custom hook for setting data to local storage
 
 function CustomHookExample2() {
   const [task, setTask] = useLocalStorage('task', '')
@@ -7,6 +8,8 @@ function CustomHookExample2() {
   const onSubmit = (e) => {
     e.preventDefault()
 
+
+    //SET TO OBJECT THAT HAS THE TASK
     const taskObj = {
       task,
       completed: false,
